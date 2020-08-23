@@ -89,7 +89,8 @@ body {
 	font-size: 1.4em;
 	color: #fff;
 }
-.content__link {
+.content__link,
+.application__send {
 	padding: 15px 10px;
 	border: 1px solid;
 	border-radius: 10px;
@@ -102,13 +103,15 @@ body {
 
 .privilege,
 .about,
-.rest {
+.rest,
+.application {
 	display: flex;
 	justify-content: center;
 }
 .privilege__container,
 .about__container,
-.rest__container {
+.rest__container,
+.application__container {
 	width: 1000px;
 	padding: 60px;
 }
@@ -119,7 +122,8 @@ body {
 }
 .privilege__title,
 .about__title,
-.rest__tittle {
+.rest__tittle,
+.application__title {
 	font-size: 1.8em;
 	margin-top: 0;
 	margin-bottom: 0.5em;
@@ -133,10 +137,59 @@ body {
 .privilege__item:last-child {
 	margin-right: 0;
 }
-.about {
+.about,
+.application {
 	background-color: #f7f7f7;
 }
 .about__descr,
 .rest__descr {
 	width: 45%;
+}
+.application__forms {
+	width: 50%;
+}
+.application__send {
+	border-color: #09d3ac;
+	color: #09d3ac;
+}
+.application__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.application__forms {
+	display: flex;
+	justify-content: center;
+}
+.application fieldset {
+	display: flex;
+	flex-direction: column;
+
+	border-color: #09d3ac;
+	margin-bottom: 20px;
+}
+.application__form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.application legend {
+	font-size: 1.8em;
+	color: #09d3ac;
+}
+.application fieldset p {
+	display: flex;
+	justify-content: space-between;
+}
+.application fieldset {
+	width: 100%;
+}
+.application__rooms,
+.application__trim,
+.application__name,
+.application__phone
+.application__send {
+	box-sizing: border-box;
+	width: 200px;
 }

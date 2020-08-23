@@ -30,7 +30,7 @@
 		<img class="content__logo" src="images/logo.svg" alt="logo">
 		<h1 class="content__title">ЖК «Лунное море»</h1>
 		<p class="content__subtitle">Место, откуда не хочется улетать</p>
-		<a class="content__link" href="#">Забронировать</a>
+		<a class="content__link" href="#app_form">Забронировать</a>
 	</div>
 </section>
 
@@ -74,6 +74,54 @@
 			</div>
 		</div>
 </section>
+
+<section class="application">
+	<div class="application__container">
+		<h2 class="application__title">Оставьте заявку сегодня!</h2>
+	<div class="application__forms">
+<form class="application__form" id="app_form" action="#" >
+<fieldset>
+   <legend>Параметры квартиры</legend>
+<p>
+   	<label for="rooms">Количество комнат</label>
+    <select class="application__rooms" name="rooms" >
+    	<option selected value="1">1</option>
+    	<option value="2">2</option>
+    	<option value="3">3</option>
+    </select>
+</p>
+<p>
+    <label for="trim">Отделка</label>
+	<select class="application__trim" name="trim" >
+		<option selected value="with">Без отделки</option>
+    	<option value="without">С отделкой</option>
+    	<option value="megawith">С супер отделкой</option>
+	</select>
+	</p>
+	</fieldset>
+		
+	<fieldset>
+	<legend>Контактная информация</legend>
+<p>
+   	<label for="user_name">Имя</label>
+    <input class="application__name" type="text" name="name" ></input>
+    </p>
+<p>
+    <label for="user_phone">Телефон</label>
+	<input class="application__phone" type="text" name="user_phone" ></input>
+</p>
+<p>
+	    <label for="user_email">E-mail</label>
+	<input class="application__email" type="text" name="user_email" ></input>
+</p>
+	</fieldset>
+	<input class="application__send" type="submit"  value="Отправить">
+		</form>
+
+		</div>
+
+	</div>
+</section>	
 
 
 <footer>
