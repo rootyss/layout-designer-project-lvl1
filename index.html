@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="html" lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,124 +8,82 @@
 
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-<header class="header">
-	<div class="header__inner header--fixed">
-		<div class="header__logo logo">
-		<img class="logo__img" src="images/logo.svg" alt="logo">
-		<p class="logo__name">Лунное море</p>
+<body class="m0">
+<header class="header header--fixed">
+	<div class="logo">
+		<img class="logo__image" src="images/logo.svg" alt="Лунное море">
+		<p class="main-text logo__title">Лунное море</p>
 	</div>
-		<nav class="menu">
-			<ul class="menu__list">
-				<li class="menu__list-item"><a class="menu__link" href="#privilege">Преимущества</a></li>
-				<li class="menu__list-item"><a class="menu__link" href="#about">О ЖК «Лунное море»</a></li>
-				<li class="menu__list-item"><a class="menu__link" href="#rest">Места для отдыха</a></li>
-			</ul>
-		</nav>
-	</div>
+	<nav class="menu">
+		<ul class="menu__list">
+			<li class="menu__item"><a class="main-text menu__link" href="#">Преимущества</a></li>
+			<li class="menu__item"><a class="main-text menu__link" href="#">О ЖК «Лунное море»</a></li>
+			<li class="menu__item"><a class="main-text menu__link" href="#">Места для отдыха</a></li>
+		</ul>
+	</nav>
 </header>
 
-<section class="content">
-	<div class="container">
-		<img class="content__logo" src="images/logo.svg" alt="logo">
-		<h1 class="content__title">ЖК «Лунное море»</h1>
-		<p class="content__subtitle">Место, откуда не хочется улетать</p>
-		<a class="content__link" href="#app_form">Забронировать</a>
+<section class="container container--img">
+	<div class="present container__content">
+		<img class="present__logo" src="images/logo.svg" alt="banner">
+		<h1 class="present__title">ЖК «Лунное море»</h1>
+		<p class="main-text present__text">Место, откуда не хочется улетать</p>
+		<a class="link-button present__link" href="#">Забронировать</a>
 	</div>
 </section>
 
-<section id="privilege" class="privilege">
-	<div class="privilege__container">
-		<div class="privilege__inner-items">
-			<div class="privilege__item">
-				<h2 class="privilege__title">Уникальный вид</h2>
-				<p class="privilege__descr">Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
-			</div>
-			<div class="privilege__item">
-				<h2 class="privilege__title">Инфраструктура</h2>
-				<p class="privilege__descr">Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
-			</div>
-			<div class="privilege__item">
-				<h2 class="privilege__title">Близость к Москве</h2>
-				<p class="privilege__descr">При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
-			</div>
+<section class="container">
+	<div class="advantages container__content container__content--row">
+		<div class="advantages__item">
+			<h2 class="title">Уникальный вид</h2>
+			<p class="main-text">Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
+		</div>
+		<div class="advantages__item">
+			<h2 class="title">Инфраструктура</h2>
+			<p class="main-text">Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+		</div>
+		<div class="advantages__item">
+			<h2 class="title">Близость к Москве</h2>
+			<p class="main-text">При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
 		</div>
 	</div>
 </section>
 
-<section id="about" class="about">
-		<div class="about__container">
-			<div class="about__descr">
-				<h2 class="about__title">О ЖК «Лунное море»</h2>
-				<p class="about__text">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
-				<p class="about__text2">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
-			</div>
-			<img class="about__image" src="images/moon-1.jpg" alt="moon">
+<section class="container container--brown">
+	<div class="container__content container__content--row-center">
+		<div class="content-about">
+			<h2 class="title">О ЖК «Лунное море»</h2>
+			<p class="main-text">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
+			<p class="main-text">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
 		</div>
+		<img class="follow-img" src="images/moon-1.jpg" alt="О ЖК «Лунное море»">
+	</div>
 </section>
 
-<section id="rest" class="rest">
-		<div class="rest__container">
-			<img class="rest__image" src="images/moon-2.jpg" alt="moon2">
-			<div class="rest__descr">
-					<h2 class="rest__tittle">Места для отдыха</h2>
-					<p class="rest__text">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
-					<p class="rest__text2">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
-			</div>
+<section class="container">
+	<div class="container__content container__content--row-center">
+		<img class="follow-img" src="images/moon-2.jpg" alt="Места для отдыха">
+		<div class="content-about">
+			<h2 class="title">Места для отдыха</h2>
+			<p class="main-text">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
+			<p class="main-text">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
 		</div>
+	</div>
 </section>
 
-<section class="application">
-	<div class="application__container">
-		<h2 class="application__title">Оставьте заявку сегодня!</h2>
-	<div class="application__forms">
-<form class="application__form" id="app_form" action="#" >
-<fieldset>
-   <legend>Параметры квартиры</legend>
-<p>
-   	<label for="rooms">Количество комнат</label>
-    <select class="application__rooms" name="rooms" >
-    	<option selected value="1">1</option>
-    	<option value="2">2</option>
-    	<option value="3">3</option>
-    </select>
-</p>
-<p>
-    <label for="trim">Отделка</label>
-	<select class="application__trim" name="trim" >
-		<option selected value="with">Без отделки</option>
-    	<option value="without">С отделкой</option>
-    	<option value="megawith">С супер отделкой</option>
-	</select>
-	</p>
-	</fieldset>
-		
-	<fieldset>
-	<legend>Контактная информация</legend>
-<p>
-   	<label for="user_name">Имя</label>
-    <input class="application__name" type="text" name="name" ></input>
-    </p>
-<p>
-    <label for="user_phone">Телефон</label>
-	<input class="application__phone" type="text" name="user_phone" ></input>
-</p>
-<p>
-	    <label for="user_email">E-mail</label>
-	<input class="application__email" type="text" name="user_email" ></input>
-</p>
-	</fieldset>
-	<input class="application__send" type="submit"  value="Отправить">
+<section class="container container--brown">
+	<div class="container__content container__content">
+		<h2 class="title">Оставьте заявку сегодня!</h2>
+		<form class="form" action="#">
+
+
 		</form>
-
-		</div>
-
 	</div>
-</section>	
+</section>
 
 
-<footer>
-Подвал
+<footer class="footer">
+	
 </footer>
 
 
