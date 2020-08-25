@@ -114,7 +114,7 @@
 .container--brown {
 	background: #f7f7f7;
 }
-.content-about {
+.content-info {
 	width: 45%;
 }
 .follow-img {
@@ -126,3 +126,53 @@
 }
 
 
+.form {
+	width: 50%;
+}
+.link-button__green {
+	color: #09d3ac;
+	border-color: #09d3ac;
+	padding: 15px 25px;
+}
+.form-legend {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #09d3ac;
+}
+.form-field--green {
+	border-color: #09d3ac
+}
+.form-field {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 20px 30px;
+	margin-bottom: 20px;
+}
+.form-label {
+	display: flex;
+	justify-content: space-between;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #303846;
+	line-height: 1.5;
+}
+.form-contact__input {
+	box-sizing: border-box;
+	width: 55%;
+	padding: 5px 0 5px 10px;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+.form-param__select {
+	box-sizing: border-box;
+	width: 55%;
+	padding: 5px 0 5px 10px;
+	border: 1px solid gray;
+	border-radius: 10px;	
+}
+.form-label--margin {
+	margin-bottom: 15px;
+}
+.form-label--margin:last-child {
+	margin-bottom: 0;
+}

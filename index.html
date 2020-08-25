@@ -16,9 +16,9 @@
 	</div>
 	<nav class="menu">
 		<ul class="menu__list">
-			<li class="menu__item"><a class="main-text menu__link" href="#">Преимущества</a></li>
-			<li class="menu__item"><a class="main-text menu__link" href="#">О ЖК «Лунное море»</a></li>
-			<li class="menu__item"><a class="main-text menu__link" href="#">Места для отдыха</a></li>
+			<li class="menu__item"><a class="main-text menu__link" href="#advantages">Преимущества</a></li>
+			<li class="menu__item"><a class="main-text menu__link" href="#about">О ЖК «Лунное море»</a></li>
+			<li class="menu__item"><a class="main-text menu__link" href="#rest">Места для отдыха</a></li>
 		</ul>
 	</nav>
 </header>
@@ -28,11 +28,11 @@
 		<img class="present__logo" src="images/logo.svg" alt="banner">
 		<h1 class="present__title">ЖК «Лунное море»</h1>
 		<p class="main-text present__text">Место, откуда не хочется улетать</p>
-		<a class="link-button present__link" href="#">Забронировать</a>
+		<a class="link-button present__link" href="#form">Забронировать</a>
 	</div>
 </section>
 
-<section class="container">
+<section id="advantages" class="container">
 	<div class="advantages container__content container__content--row">
 		<div class="advantages__item">
 			<h2 class="title">Уникальный вид</h2>
@@ -49,9 +49,9 @@
 	</div>
 </section>
 
-<section class="container container--brown">
+<section id="about" class="container container--brown">
 	<div class="container__content container__content--row-center">
-		<div class="content-about">
+		<div class="content-info">
 			<h2 class="title">О ЖК «Лунное море»</h2>
 			<p class="main-text">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
 			<p class="main-text">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
@@ -60,10 +60,10 @@
 	</div>
 </section>
 
-<section class="container">
+<section id="rest" class="container">
 	<div class="container__content container__content--row-center">
 		<img class="follow-img" src="images/moon-2.jpg" alt="Места для отдыха">
-		<div class="content-about">
+		<div class="content-info">
 			<h2 class="title">Места для отдыха</h2>
 			<p class="main-text">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
 			<p class="main-text">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
@@ -74,17 +74,41 @@
 <section class="container container--brown">
 	<div class="container__content container__content">
 		<h2 class="title">Оставьте заявку сегодня!</h2>
-		<form class="form" action="#">
-
-
+		<form id="form" class="form" action="#">
+			<fieldset class="form-field form-param form-field--green">
+				<legend class="form-legend form-param__title">Параметры квартиры</legend>
+					<label class="form-label form-label--margin">Количество комнат:
+						<select class="form-param__select" type="text">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+					<label class="form-label form-label--margin">Отделка:
+						<select class="form-param__select" type="text">
+							<option value="garn1">Без отделки</option>
+							<option value="garn2">С отделкой</option>
+							<option value="garn3">White box</option>
+						</select>
+					</label>
+			</fieldset>
+			<fieldset class="form-field form-contact form-field--green">
+				<legend class="form-legend form-contact__title">Контактная информация</legend>
+					<label class="form-label form-label--margin">Имя:<input class="form-contact__input" type="text" name="name"></label>
+					<label class="form-label form-label--margin">Телефон:<input class="form-contact__input" type="text" name="phone"></label>
+					<label class="form-label form-label--margin">E-mail:<input class="form-contact__input" type="text" name="email"></label>
+			</fieldset>
+			<input class="link-button link-button__green" type="submit" value="Отправить">
 		</form>
 	</div>
 </section>
 
 
+
 <footer class="footer">
 	
 </footer>
+				
 
 
 </body>
